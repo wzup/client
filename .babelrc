@@ -1,0 +1,22 @@
+
+{
+    "presets": [
+        "react",
+        "stage-0"
+    ],
+    "env": {
+        "development": {
+            "plugins": [
+                "react-hot-loader/babel",
+                "transform-runtime",
+            ],
+            "presets": [
+                "env"
+            ]
+        },
+    },
+    "ignore": [
+        "foo.js",
+        "bar/**/*.js"
+    ]
+}
